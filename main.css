@@ -10,8 +10,9 @@
     background-color: #CBE7D6;
     border: solid;
     border-width: 0.15rem;
-    border-color: black;
+    border-color: #0c451b;
     border-radius: 1.25rem;
+    box-shadow: .3rem .3rem #0c451b;
 }
 
 .row {
