@@ -53,7 +53,7 @@ for(let buttonOp of buttonOps) {
 }
 
 // Calculates output when equal button is pressed
-buttonC.addEventListener("mousedown",calcOutput);
+buttonEq.addEventListener("mousedown",calcOutput);
 
 // Clears output when C button is pressed
 buttonC.addEventListener("mousedown",clearOutput);
@@ -99,7 +99,8 @@ function inputOp(e) {
 
 // function to calculate input (for equal button)
 function calcOutput() {
-    
+    Output.innerText = eval(Output.innerText);
+    // Output.innerText = Math.Floor(eval(Output.innerText)*10**6)/(10**6);
 }
 
 // function to clear output
