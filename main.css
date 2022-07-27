@@ -49,6 +49,7 @@
 }
 
 #screen {
+    text-align: right;
     color: white;
     font-family:'digital-clock-font';
     font-size: 3rem;
