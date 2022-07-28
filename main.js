@@ -99,8 +99,8 @@ function inputOp(e) {
 
 // function to calculate input (for equal button)
 function calcOutput() {
-    Output.innerText = eval(Output.innerText);
-    // Output.innerText = Math.Floor(eval(Output.innerText)*10**6)/(10**6);
+    // This returns a value with at most 6 decimal places
+    Output.innerText = +parseFloat(eval(Output.innerText)).toFixed(6);
 }
 
 // function to clear output

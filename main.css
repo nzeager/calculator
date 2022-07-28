@@ -3,9 +3,15 @@
     src: url(digital-7/digital-7.ttf);
 }
 
+
+body {
+    background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/writing-desk_E8VATIYGAF.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
 .container {
-    width: 30vw;
-    min-width: 20rem;
+    width: 25rem;
     padding: 1rem 2rem 1rem 1rem;
     background-color: #CBE7D6;
     border: solid;
@@ -13,12 +19,12 @@
     border-color: #0c451b;
     border-radius: 1.25rem;
     box-shadow: .3rem .3rem #0c451b;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .row {
-    display: flex;
     width: 100%;
-    text-align: center;
 }
 
 .button {
@@ -31,8 +37,7 @@
     border-color: #198E16;
     border-radius: 1.5rem;
     box-shadow: .2rem .2rem #198E16;
-    margin: .2rem;
-    flex: 1 1 0;
+    margin: .5rem;
 }
 
 .buttonOp {
@@ -44,8 +49,7 @@
     border-color: #198E16;
     border-radius: 1.5rem;
     box-shadow: .2rem .2rem #198E16;
-    margin: .2rem;
-    flex: 1 1 0;
+    margin: .5rem;
 }
 
 #screen {
@@ -60,11 +64,7 @@
     border-width: 0.15rem;
     border-color: gray;
     border-radius: .4rem;
-    margin: .15rem;
-    flex: 1 1 0;
-    /* width: 75%; */
+    margin: .45rem;
+    grid-column-start: 2;
+    grid-column-end: 5;
 }
-
-/* #c {
-    width: 75%;
-} */
