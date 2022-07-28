@@ -83,9 +83,17 @@ function inputNum(e) {
     }
 }
 
-// function to input decimal
+// function to input decimal 
 function inputDec() {
-    Output.innerText = Output.innerText + ".";
+    if (Output.innerText.charAt(Output.innerText.length - 1) === ".") {
+        //doesn't allow you to put two decimals next to each other
+        Output.innerText = Output.innerText;
+    } else if (isNaN(Number(Output.innerText.charAt(Output.innerText.length - 1)))) {
+        // adds leading 0 if decimal comes at beginning of number
+        Output.innerText = Output.innerText + "0."; 
+    } else {
+        Output.innerText = Output.innerText + ".";
+    }
 }
 
 // function to input operations
