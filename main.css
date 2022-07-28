@@ -67,4 +67,8 @@ body {
     margin: .45rem;
     grid-column-start: 2;
     grid-column-end: 5;
+    /* keeps output from running of the screen, but obscures part of it */
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    direction: rtl;
 }
