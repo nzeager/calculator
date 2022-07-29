@@ -70,5 +70,6 @@ body {
     /* keeps output from running of the screen, but obscures part of it */
     overflow: hidden; 
     text-overflow: ellipsis;
-    direction: rtl;
+    /* Removing the line below because it messes up the operation displays after pressing enter */
+    /* direction: rtl; */
 }
