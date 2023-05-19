@@ -1,6 +1,22 @@
 # Build a Calculator
 
-## Directions
+## Momentum Boot Camp Project 4
+
+Skills:
+
+- first javascript project not following a tutorial
+- DOM manipulation
+- translating button display of multiplication (X) to functional operation (*)
+
+Additional features I added:
+
+- preventing users from placing operation (addition, subtraction, etc) next to operation
+- limiting number of decimal places to 6
+- specifying display when number is too big for screen (left aligned, with elipses where it cuts off)
+- button press animation
+- styling (color, shadow/depth, background)
+
+## Below are Project Directions for part 1
 
 This exercise will help you understand how to use JavaScript functions and algorithms. You will also work with the DOM and respond to user input.
 Our objective is to create a working calculator with HTML, CSS, and JavaScript, and we are going to tackle this in two stages.
